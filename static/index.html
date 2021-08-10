@@ -1,23 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-<style>
-body {
-  background-color: black;
-  text-align: center;
-  color: white;
-}
-</style>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<h1>Подвал</h1>
-<p>Здесь ты можешь посмотреть всех жертв, которые числятся на твой счет</p>
-<form action="/check" method="POST"> 
-    <textarea name="unique_id"></textarea><br>
-    <input type="submit" value="В логово!">
-</form>
+    <title>Signin Template for Bootstrap</title>
 
-</body>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/signin.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form action="/check" method="POST" class="form-signin">
+      <img class="mb-4" src="./img/blackmark.jpeg" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Вход в логово</h1>
+      <label for="inputPassword" class="sr-only">Введите ваш ID</label>
+      <input type="password" name="unique_id" id="inputPassword" class="form-control" placeholder="деньги, деньги, дребеденьги" required>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 4ЛКШ</p>
+    </form>
+  </body>
+
 </html>

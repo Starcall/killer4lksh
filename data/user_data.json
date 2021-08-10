@@ -1,0 +1,11 @@
+{
+    "knownusers" :
+    [
+        {"firstname" : "Bogdan1", "lastname" : "Trubetskoy1", "uid" : "1", "killed" : ["2", "3"]},
+        {"firstname" : "Bogdan2", "lastname" : "Trubetskoy2", "uid" : "2", "killed" : []},
+        {"firstname" : "Bogdan3", "lastname" : "Trubetskoy3", "uid" : "3", "killed" : ["4"]},
+        {"firstname" : "Bogdan4", "lastname" : "Trubetskoy4", "uid" : "4", "killed" : ["5", "6"]},
+        {"firstname" : "Bogdan5", "lastname" : "Trubetskoy5", "uid" : "5", "killed" : []},
+        {"firstname" : "Bogdan6", "lastname" : "Trubetskoy6", "uid" : "6", "killed" : []}
+    ]
+}
