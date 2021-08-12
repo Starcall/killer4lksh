@@ -27,12 +27,13 @@
         {{end}}
         </table>
     </ul>
-    <form action="/check" method="POST" class="form-signin">
-        <img class="mb-4" src="./img/blackmark.jpeg" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Вход в логово</h1>
-        <label for="inputPassword" class="sr-only">Введите ваш ID</label>
-        <input type="password" name="unique_id" id="inputPassword" class="form-control" placeholder="деньги, деньги, дребеденьги" required>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <form action="/kill" method="POST" class="form-signin">
+        <img class="mb-4" src="./img/contract.jpeg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Завершить контракт</h1>
+        <label for="inputPassword" class="sr-only">Введите ID вашей цели</label>
+	<input type="hidden" name="UID" value="{{.UserUID}}">
+        <input type="text" name="killapply" id="inputPassword" class="form-control" placeholder="ах как хочется вина..." required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Убийство подтверждаю</button>
         <p class="mt-5 mb-3 text-muted">&copy; 4ЛКШ</p>
       </form>
   </body>
